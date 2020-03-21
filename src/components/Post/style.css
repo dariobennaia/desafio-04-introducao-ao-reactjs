@@ -1,0 +1,29 @@
+.post-content {
+  background-color: #ffffff;
+  /* width: 800px; */
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.09);
+  margin: 10px;
+}
+
+@media(min-width: 1000px){
+  .post-content {
+    width: 800px;
+  }
+}
+.post-content .post  {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  margin-top: -15px;
+  padding: 15px;
+  color: #848484;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.post-content .divider {
+  margin: 10px;
+  background-color: #eeeeee;
+  height: 1px;
+}

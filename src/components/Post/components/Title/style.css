@@ -1,0 +1,30 @@
+.title {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  padding: 15px;
+}
+
+.title img {
+  border-radius: 50%;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.title div {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 10px;
+}
+
+.title span:nth-child(1) {
+  font-weight: bold;
+  color: #646464;
+}
+
+.title span:nth-child(2) {
+  font-weight: bold;
+  color: #b5b5b5;
+  font-size: 14px;
+}

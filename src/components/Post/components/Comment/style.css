@@ -1,0 +1,49 @@
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  padding: 0px 15px 15px 15px;
+}
+
+.comment .avatar {
+  width: 5%;
+  align-self: flex-start;
+}
+
+.comment img {
+  border-radius: 50%;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.comment .content {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  background-color: #eee;
+  padding: 10px;
+  width: 95%;
+  margin-top: -3px;
+}
+
+.comment .content strong {
+  color: #535353;
+  font-weight: bold;
+}
+
+.comment .content p {
+  color: #848484;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+@media(max-width: 600px) {
+  .comment .avatar {
+    width: 12%;
+  }
+  .comment .content {
+    width: 88%;
+    flex-direction: row-reverse;
+  }
+}

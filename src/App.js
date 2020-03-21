@@ -1,8 +1,15 @@
 import React from 'react';
 import './App.css';
 
+import Default from './layouts/Default';
+import Home from './pages/Home';
+
 function App() {
-  return <h1>Ola mundo</h1>;
+  return (
+    <Default>
+      <Home />
+    </Default>
+  );
 }
 
 export default App;
